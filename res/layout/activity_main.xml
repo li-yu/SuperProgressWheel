@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:spw="http://schemas.android.com/apk/res/com.liyu.superprogresswheel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.liyu.widget.MainActivity" >
+    <com.liyu.widget.SuperProgressWheel
+        android:id="@+id/spw1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        spw:roundColor="#56abe4"
+        spw:roundProgressColor="#a9b7b7"
+        spw:roundWidth="10dp"
+        spw:maxProgress="100"
+        spw:displayStyle="DRAWABLE"
+        spw:displayDrawable="@drawable/ic_fan"
+        >
+    </com.liyu.widget.SuperProgressWheel>
+
+    <com.liyu.widget.SuperProgressWheel
+        android:id="@+id/spw2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/spw1"
+        spw:roundColor="#9d55b8"
+        spw:roundProgressColor="#a9b7b7"
+        spw:textSize="20sp"
+        spw:roundWidth="10dp"
+        spw:maxProgress="100"
+        spw:displayStyle="TEXT"
+        >
+    </com.liyu.widget.SuperProgressWheel>
+    <com.liyu.widget.SuperProgressWheel
+        android:id="@+id/spw3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        spw:roundColor="#eb4f38"
+        spw:roundProgressColor="#a9b7b7"
+        spw:roundWidth="10dp"
+        spw:maxProgress="100"
+        spw:displayStyle="NONE"
+        >
+    </com.liyu.widget.SuperProgressWheel>
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        android:text="Start" />
+
+</RelativeLayout>
