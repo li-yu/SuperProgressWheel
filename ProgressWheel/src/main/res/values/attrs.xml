@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SuperProgressWheel">
+        <attr name="roundColor" format="color"/>  
+        <attr name="roundProgressColor" format="color"/>  
+        <attr name="roundWidth" format="dimension"/>  
+        <attr name="textColor" format="color" />    
+        <attr name="textSize" format="dimension" />   
+        <attr name="maxProgress" format="integer"/>
+        <attr name="displayDrawable" format="reference"/>   
+        <attr name="displayStyle">  
+            <enum name="NONE" value="0"></enum>  
+            <enum name="TEXT" value="1"></enum>  
+            <enum name="DRAWABLE" value="2"></enum> 
+        </attr>
+        <attr name="drawablePadding" format="dimension"/>
+        <attr name="rotateDuration" format="integer"/>
+    </declare-styleable>
+</resources>

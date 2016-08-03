@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:spw="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+    <com.liyu.widget.SuperProgressWheel
+        android:id="@+id/spw1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        spw:roundColor="#9d55b8"
+        spw:roundProgressColor="#a9b7b7"
+        spw:roundWidth="10dp"
+        spw:maxProgress="100"
+        spw:displayStyle="DRAWABLE"
+        spw:drawablePadding="20dp"
+        >
+    </com.liyu.widget.SuperProgressWheel>
+
+    <com.liyu.widget.SuperProgressWheel
+        android:id="@+id/spw2"
+        android:layout_toRightOf="@id/spw1"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="8dp"
+        spw:roundColor="#678903"
+        spw:roundProgressColor="#a9b7b7"
+        spw:roundWidth="10dp"
+        spw:maxProgress="100"
+        spw:displayStyle="TEXT"
+        >
+    </com.liyu.widget.SuperProgressWheel>
+
+    <com.liyu.widget.SuperProgressWheel
+        android:id="@+id/spw3"
+        android:layout_below="@id/spw1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="100dp"
+        spw:roundColor="#234567"
+        spw:roundProgressColor="#a9b7b7"
+        spw:roundWidth="6dp"
+        spw:maxProgress="100"
+        spw:displayStyle="NONE"
+        >
+    </com.liyu.widget.SuperProgressWheel>
+
+</RelativeLayout>
