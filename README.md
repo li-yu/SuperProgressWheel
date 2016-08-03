@@ -21,7 +21,13 @@ Library is available in jcenter repository.
 <com.liyu.widget.SuperProgressWheel
         android:id="@+id/spw"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+		spw:roundColor="#9d55b8"
+        spw:roundProgressColor="#a9b7b7"
+        spw:roundWidth="10dp"
+        spw:maxProgress="100"
+        spw:displayStyle="DRAWABLE"
+        spw:drawablePadding="20dp"/>
 ```
 
 ## Set Listener in java
@@ -50,7 +56,7 @@ spw.setOnProgressListener(new ProgressWheelView.onProgressListener() {
 |rotateDuration|integer|1600| Rotate speed: The image rotate duration |
 
 ## TODO
-- Support more animations, now only supprt rotation.
+- Support more animations, now only support rotation.
 - Waiting for your suggestions.
 
 ## Thanks
