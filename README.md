@@ -51,5 +51,5 @@ spw.setOnProgressListener(new ProgressWheelView.onProgressListener() {
 - Waiting for your suggestions.
 
 ## Thanks
--[Android 高手进阶之自定义View，自定义属性（带进度的圆形进度条）](http://blog.csdn.net/xiaanming/article/details/10298163)
--[android-library-gradle-publish](https://github.com/LiangMaYong/android-library-gradle-publish)
+- [Android 高手进阶之自定义View，自定义属性（带进度的圆形进度条）](http://blog.csdn.net/xiaanming/article/details/10298163)
+- [android-library-gradle-publish](https://github.com/LiangMaYong/android-library-gradle-publish)
