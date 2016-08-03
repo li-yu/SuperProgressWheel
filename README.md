@@ -4,6 +4,9 @@
 ## ScreenShot
 <img src="https://raw.githubusercontent.com/li-yu/SuperProgressWheel/master/Screenshot.png" alt="Drawing" width="300px" />
 
+## Demo apk
+[Download](https://github.com/li-yu/SuperProgressWheel/blob/master/sample-debug.apk?raw=true)
+
 ## Installation
 Add to module *build.gradle*:
 
