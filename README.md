@@ -16,6 +16,12 @@ Add to module *build.gradle*:
 Library is available in jcenter repository.
 
 ## Include View in your layout
+Add **namespace** to parent layout node.
+``` xml
+...
+xmlns:spw="http://schemas.android.com/apk/res-auto"
+...
+```
 
 ``` xml
 <com.liyu.widget.SuperProgressWheel
