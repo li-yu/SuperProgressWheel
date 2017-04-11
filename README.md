@@ -1,4 +1,7 @@
 # SuperProgressWheel
+
+[ ![Download](https://api.bintray.com/packages/li-yu/maven/ProgressWheel/images/download.svg) ](https://bintray.com/li-yu/maven/ProgressWheel/_latestVersion)
+
  **Code refactoring!** A progress wheel for Android, support roatate animation and progress text.
 
 ## ScreenShot
